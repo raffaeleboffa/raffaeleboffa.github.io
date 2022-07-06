@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* - TUTTO - */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+html, body{
+  background: #fff;
+  width: 100%;
+  height: auto;
+}
+
+/* - HEADER - */
+
+.header{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 10;
+  border-bottom: solid #eee 5px;
+  background: #fff;
+}
+.logo-header{
+  width: 60px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.versione{
+  color: #a60202;
+  display: inline-block;
+  font-size: 15px;
+}
+.menu{
+  width: 100%;
+  text-align: right;
+  display: inline-block;
+  position: absolute;
+  margin-left: -280px;
+  margin-top: 28px;
+  font-size: 20px;
+}
+.menu a li{
+  display: inline-block;
+  color: #000;
+  display: inline-block;
+  font-weight: bold;
+  margin: 10px;
+}
+.menu a li:hover{
+  color: #3b82f6;
+}
+
+/* - PAGE - */
+
+.page{
+  width: auto;
+  height: 1000px;
+  padding-top: 105px;
+}
+.cover{
+  display: block;
+  width: 100%;
+  margin-top: 200px;
+}
+.cover img{
+  width: 100%;
+}
+.contenuto-cover{
+  width: 100%;
+  background: #4f8ff7;
+  height: 100px;
+  margin-top: -5px;
+}
+
+/* - FOOTER - */
+
+.footer{
+  margin-top: 200px;
+  background: #000;
+  border-top: solid #eee 5px;
+  color: #fff;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer a{
+  color: #fff;
+}
+.crediti{
+  text-align: justify;
+}
+.nome-sezione{
+  font-size: 22px;
+  margin: 10px;
+}
+.crediti-col1{
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  text-align: left;
+}
+.crediti-col2{
+  display: inline-block;
+  position: absolute;
+  height: auto;
+  text-align: left;
+}
+.titoli-crediti{
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.licenza{
+  margin-left: 10px;
+}
+
+/* - SCROOLBAR - */
+
+::-webkit-scrollbar{
+    width: 0.8em;
+    height: 0.8em;
+    background: #eaeaea;
+    margin-right: 10px;
+}
+::-webkit-resizer{
+    background-color: #ccc;
+}
+::-webkit-scrollbar-thumb{
+    min-height: 0.8em;
+    min-width: 0.8em;
+    -webkit-border-radius: 10px;
+    background-color: #3b82f6;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #77a9fa;
+}
+::-webkit-scrollbar-thumb:active{
+    background-color:#77a9fa;
+}
